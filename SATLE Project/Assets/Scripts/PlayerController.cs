@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.EventSystems;
 using UnityEngine;
 
 // youtube tutorial: https://www.youtube.com/watch?v=K1xZ-rycYY8
@@ -31,6 +32,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+
+
         // Returns -1, 0, or 1 depending on direction of movement
         horizontal = Input.GetAxisRaw("Horizontal");
 

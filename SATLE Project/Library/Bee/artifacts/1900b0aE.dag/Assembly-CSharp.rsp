@@ -426,10 +426,15 @@
 "Assets/Scripts/DoorTrigger.cs"
 "Assets/Scripts/EnemyAI.cs"
 "Assets/Scripts/EnemyGFX.cs"
+"Assets/Scripts/Interactible.cs"
+"Assets/Scripts/Inventory.cs"
+"Assets/Scripts/InventorySlot.cs"
 "Assets/Scripts/InventoryUI.cs"
+"Assets/Scripts/Item.cs"
 "Assets/Scripts/ItemCollect.cs"
 "Assets/Scripts/NPCChat.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/PlayerItemCollect.cs"
 -langversion:9.0
 
 /deterministic

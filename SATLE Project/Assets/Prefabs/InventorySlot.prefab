@@ -119,7 +119,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7108024305907098565}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2998748213780506415}
+        m_TargetAssemblyTypeName: InventorySlot, Assembly-CSharp
+        m_MethodName: OnRemoveButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2038834016051313144
 GameObject:
   m_ObjectHideFlags: 0
@@ -129,6 +141,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4186840512506311979}
+  - component: {fileID: 2998748213780506415}
   m_Layer: 5
   m_Name: InventorySlot
   m_TagString: Untagged
@@ -157,6 +170,20 @@ RectTransform:
   m_AnchoredPosition: {x: -470.34497, y: -0.00021362305}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2998748213780506415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038834016051313144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c137505a8856f1a4d938a82d85d37ce0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2066733430008495018}
+  removeButton: {fileID: 111431255793298104}
 --- !u!1 &2346045514379610471
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,7 +304,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6031127332495392274}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2998748213780506415}
+        m_TargetAssemblyTypeName: InventorySlot, Assembly-CSharp
+        m_MethodName: UseItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8861788564824911132
 GameObject:
   m_ObjectHideFlags: 0
